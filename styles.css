@@ -125,10 +125,11 @@ header .navbar a:hover{
     box-shadow: 0 8px 32px rgba(31,38,135,0.37);
     border-radius: 10px;
     border:1px solid rgba(255,255,255,0.18);
-    position: inherit;
+    position: relative;
     background: rgba(155,155,155, 0.05);
     backdrop-filter: blur(3.5px);
     -webkit-backdrop-filter: blur(3.5px);
+    width:50px;
 
 }
 .menu .box-container .box .image{
@@ -140,7 +141,6 @@ header .navbar a:hover{
 
 .menu .box-container .box .image img{
     height:30rem;
-    width:30rem;
 }
 .menu .box-container .box:hover .image img{
     transform: scale(1.2);
