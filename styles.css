@@ -129,7 +129,7 @@ header .navbar a:hover{
     background: rgba(155,155,155, 0.05);
     backdrop-filter: blur(3.5px);
     -webkit-backdrop-filter: blur(3.5px);
-    text-align:center;
+    margin-right:1rem;
 
 }
 .menu .box-container .box .image{
