@@ -118,6 +118,7 @@ header .navbar a:hover{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
+    text-align:center;
 }
 
 .menu .box-container .box{
