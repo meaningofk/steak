@@ -130,8 +130,7 @@ header .navbar a:hover{
     background: rgba(155,155,155, 0.05);
     backdrop-filter: blur(3.5px);
     -webkit-backdrop-filter: blur(3.5px);
-    margin-right:150px;
-    margin-left: 300px;
+    margin-right:100px;
 
 }
 .menu .box-container .box .image{
