@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="buypage">
+    <header>
+        <a class="title">
+            Steak House
+        </a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+        </nav>
+        </header>
+    <div class="boxcontainer">
+        <form>
+            <div id="buyform">
+                <h3 class="buyform">Full Name</h3>
+                <input class="fullname" type="text" name="name">
+            </div>
+                <h3 class="buyform">Contact No.</h3>
+                <input class="contactnumber" type="number" name="num">
+                <h3 class="buyform">Email Address</h3>
+                <input class="emailaddress" type="text" name="emailadds">
+                <h3 class="buyform">Home Address</h3>
+                <input class="homeadd" type="text" name="homeaddress">
+                <h3 class="buyform">Order</h3>
+                <select class="food" name="food" id="food">
+                    <option value="select">--Select--</option>
+                    <option value="tbone">T-bone Steak</option>
+                    <option value="sirlion">Sirloin Steak</option>
+                    <option value="sirlion">Ribeye Steak</option>
+                    <option value="tomahawk">Tomahawk Steak</option>
+                    <option value="brisket">Brisket Steak</option>
+                    <option value="skirt">Skirt Steak</option>
+                </select>
+                <h3 class="buyform">Quantity</h3>
+                <input class="quantity" type="number" name="quantity" min="1" max="99">
+                <h3 class="buyform">Date</h3>
+                <input class="date" type="date" name="date">
+            <div class="buttons">
+                    <a href="home.html">
+                        <input type="button" onclick="reset()" value="Cancel" class="cancelbtn">
+                        <input type="button" onclick="ok()" value="Buy" class="buybtn">
+                    </a>
+            </div>
+        </form>
+    </div>
+    <script>
+        function ok(){
+            alert("Thanks for placing your order. Your order is now in process!")
+        }
+    </script>
+</body>
+</html>
