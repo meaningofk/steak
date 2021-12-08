@@ -248,7 +248,8 @@ header .navbar a:hover{
     margin: 5%;
     width: 600px;
     height: auto;
-    margin-right:100px;
+    margin-right:110px;
+    margin-top:1rem;
 }
 
 form{
