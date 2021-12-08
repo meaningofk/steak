@@ -117,7 +117,7 @@ header .navbar a:hover{
 .menu .box-container{
     display: flex;
     flex-wrap: wrap;
-    gap:.5rem;
+    gap:.8rem;
 }
 
 .menu .box-container .box{
@@ -248,7 +248,7 @@ header .navbar a:hover{
     margin: 5%;
     width: 600px;
     height: auto;
-    margin-left: 100px;
+    margin-left: -100px;
     margin-top: 150px;
 }
 
