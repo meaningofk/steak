@@ -141,6 +141,7 @@ header .navbar a:hover{
 
 .menu .box-container .box .image img{
     height:30rem;
+    position:relative;
 }
 .menu .box-container .box:hover .image img{
     transform: scale(1.2);
