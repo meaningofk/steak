@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="contactpage">
+    <header>
+        <a class="title">
+            Steak House
+        </a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+        </nav>
+        </header>
+</section>
+<section class="contact" id="contact">
+    <h2 class="heading1">
+        Contact Us
+    </h2>
+    <div class="contactform">
+    <form>
+        <p class="how">How can we help you?</p>
+        <input type="text" placeholder="Name" class="box">
+        <input type="email" placeholder="Email Address" class="box">
+        <input type="number" placeholder="Contact" class="box">
+        <textarea name class="box" placeholder="Message" id cols="50" rows="10"></textarea>
+        <div class="sendform">
+        <a href="home.html">
+            <input type="button" onclick="ok()" value="Send" class="button">
+        </a>
+    </div>
+    </form>
+</div>
+    <script>
+        function ok(){
+            alert("Message Sent!")
+        }
+    </script>
+</section>
+</body>
+</html>
