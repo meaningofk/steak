@@ -118,11 +118,10 @@ header .navbar a:hover{
     display: flex;
     flex-wrap: wrap;
     gap:2rem;
-    text-align:center;
 }
 
 .menu .box-container .box{
-    flex:1 1 30rem;
+    flex:1 1 35rem;
     box-shadow: 0 8px 32px rgba(31,38,135,0.37);
     border-radius: 10px;
     border:1px solid rgba(255,255,255,0.18);
